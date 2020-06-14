@@ -7,11 +7,13 @@ import StateNote from './component/StateNote';
 import ParentComponent from './component/ParentComponent';
 import PersonList from './component/PersonList';
 import FormComponent from './component/FormComponent';
+import FragmentComponent from './component/Fragment/FragmentComponent';
 
 function App() {
   return (
     <div className="App">
-      <FormComponent />
+      <FragmentComponent />
+      {/* <FormComponent /> */}
       {/* <PersonList /> */}
       {/* <ParentComponent/> */}
       {/* <h1>
