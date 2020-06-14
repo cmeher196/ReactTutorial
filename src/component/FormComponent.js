@@ -33,6 +33,8 @@ export default class FormComponent extends PureComponent {
     handleSubmit=(e)=>{
         alert(`UserName :${this.state.username} Email Id: ${this.state.email} Password:${this.state.password}`)
         e.preventDefault();
+        console.log(`UserName :${this.state.username} Email Id: ${this.state.email} Password:${this.state.password}`);
+        
     }
 
     render() {
